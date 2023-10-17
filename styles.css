@@ -1,0 +1,40 @@
+:root {
+	--black: #242e38;
+	--blue: #36414e;
+	--green: #698f7d;
+	--lime: #bac99e;
+	--white: #efe9cc;
+}
+
+body {
+	background-color: var(--black);
+	color: var(--lime);
+	font-size: 1.33em;
+	text-align: center;
+}
+
+a {
+	color: var(--white);
+}
+a:hover {
+	color: var(--green);
+}
+
+button {
+	border-radius: 0px;
+	background-color: var(--blue);
+	border: 1px solid var(--white);
+
+	min-width: 150px;
+	min-height: 50px;
+
+	margin-left: 1em;
+	margin-right: 1em;
+}
+button:disabled {
+	background-color: var(--black);
+}
+
+button > a {
+	font-size: 2em;
+}
