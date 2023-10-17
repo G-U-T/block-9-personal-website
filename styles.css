@@ -13,6 +13,22 @@ body {
 	text-align: center;
 }
 
+img {
+	max-width: 800px;
+	max-height: 500px;
+
+	outline: 6px double var(--green);
+}
+.project > img {
+	max-width: 400px;
+	max-height: 400px;
+}
+
+h2 {
+	margin-top: 64px;
+	margin-bottom: -16px;
+}
+
 a {
 	color: var(--white);
 }
@@ -37,4 +53,17 @@ button:disabled {
 
 button > a {
 	font-size: 2em;
+}
+
+.project {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	gap: 40px;
+	margin: 40px;
+}
+.project > p {
+	max-width: 500px;
 }
